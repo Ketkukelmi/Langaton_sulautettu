@@ -1,0 +1,7 @@
+CREATE TABLE ToimistoData (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+lampotila FLOAT(4,2),
+kosteus FLOAT(4,2),
+oviauki BOOLEAN not null default 0,
+kahvikeitto DATETIME null
+)

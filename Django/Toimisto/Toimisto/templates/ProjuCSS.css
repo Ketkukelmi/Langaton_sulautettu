@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9.11.2016, 10:28:04 Rip 9/11
+    Author     : RikuM
+*/
+html{
+    width: 90%;
+}
+
+#testdiv1
+{
+background: url(https://i.ytimg.com/vi/WKB0JUkksJg/maxresdefault.jpg);
+}
+
+body {
+    background-color: lightyellow;
+    height: 95%;
+    width: 90%;
+    background-image: url(http://office-turn.com/wp-content/uploads/2012/01/NEllo-contemporary-flexible-office-walls-separator-design.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: darkslategray;
+    text-align: center;
+    font-size: 40px;
+    font-size: 2.8vw;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    
+    background-color: whitesmoke;
+    opacity: 0.85;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+h3 {
+    color: darkslategray;
+    text-align: center;
+    font-family: "Nobile", Helvetica, Arial, sans-serif;
+    font-size: 1.9vw;
+}
+h4{
+   
+    font-family: "Arial", Times, serif;
+    font-size: 15px;
+    position: absolute;
+    font-size: 1.5vw;
+}
+h5{
+    color: darkslategray;
+    font-family: "Arial", Times, serif;
+    font-size: 1vw;
+}
+.content{
+    flex: 1;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+}
+footer
+{
+        position: absolute;        
+	clear: both;
+	background-color:	whitesmoke;
+	color: darkslategrey;
+        opacity: 0.8;        	
+        align-content: stretch;
+	height: 18%;
+        width: 98%;
+        top: 80%;
+        text-align: center;
+        
+	
+}
+div.lukemat
+{
+        border-radius: 10px;
+	position: absolute;
+	padding-top: 20px;
+	text-align: center;
+        
+        background-color: whitesmoke;
+        opacity: 0.9;
+	border: 2px solid white;
+        
+	
+	top: 35%;
+	left: 38%;
+}
+.space { margin-top: 400px; }
+img {
+ 
+    border-radius: 300px;
+    height: 25%;
+    width: 25%;
+    max-height: 100px;
+    max-width: 100px;
+    opacity: 0.9;
+}
+
+li {
+    float: left;
+   
+}
+
+li a {
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+ul {
+    padding: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    width: 120%;
+    opacity: 0.85;
+}
